@@ -9,3 +9,8 @@ gem 'jekyll-assets'
 gem 'kramdown'
 gem 'bourbon'
 gem 'neat'
+gem 'foreman'
+
+group :development do
+  gem 'guard-livereload', '~> 2.4', require: false
+end
